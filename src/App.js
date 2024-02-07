@@ -7,11 +7,7 @@ import { ContactsPage } from "./containers/contactsPage/ContactsPage";
 
 function App() {
   const defaultContacts = [
-    {
-      name:'',
-      phone:'',
-      email: ''
-    }
+
    ];
   const [contacts, setContacts] = useState(defaultContacts);
   const [appointments, setAppointments] = useState([])
